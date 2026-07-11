@@ -11,3 +11,5 @@ A simple Python project with a virtual environment for running tests.
    - `python -m pip install pytest`
 4. Run tests:
    - `python -m pytest -q`
+  
+5. Track changes
