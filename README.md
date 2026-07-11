@@ -13,3 +13,4 @@ A simple Python project with a virtual environment for running tests.
    - `python -m pytest -q`
   
 5. Track changes
+6. Publish branches with caution
