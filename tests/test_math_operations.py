@@ -31,3 +31,6 @@ def test_power():
 
 def test_absolute():
     assert abs(-6) == 6
+
+def test_square():
+    assert square(9) == 81
