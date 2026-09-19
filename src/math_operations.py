@@ -21,3 +21,6 @@ def modulus(a, b):
 
 def power(a, b):
     return a ** b
+
+def absolute(a):
+    return abs(a)

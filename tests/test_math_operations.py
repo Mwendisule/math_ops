@@ -28,3 +28,6 @@ def test_modulus():
 
 def test_power():
     assert power(2, 4) == 16
+
+def test_absolute():
+    assert abs(-6) == 6
