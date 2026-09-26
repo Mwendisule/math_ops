@@ -1,65 +1,151 @@
-Pull Request
-Description
-<!-- Describe what this PR changes and why. -->
-Related Issue
-<!-- Link the issue/ticket this PR addresses. -->
+# Pull Request
+
+## 📋 Description
+
+<!-- Briefly describe what this Pull Request does and why it is needed. -->
+
+### Related Issue
+
+<!-- Link the issue this PR addresses, if applicable. -->
 
 Closes #
 
-Type of Change
+---
 
- Bug fix
+## 🎯 Changes Made
 
- New feature
+<!-- List the main changes introduced by this PR. -->
 
- Enhancement
+*
+*
+*
 
- Refactoring
+---
 
- Documentation
+## 🔧 Type of Change
 
- Tests
+<!-- Check all that apply. -->
 
- Chore / Maintenance
+* [ ] 🐛 Bug fix
+* [ ] ✨ New feature
+* [ ] 🔄 Refactoring
+* [ ] 📚 Documentation
+* [ ] 🧪 Tests
+* [ ] ⚡ Performance improvement
+* [ ] 🔒 Security improvement
+* [ ] 🎨 UI/UX improvement
+* [ ] 🗃️ Database/schema change
+* [ ] 🤖 Data science / ML change
+* [ ] 🛠️ Configuration/build change
+* [ ] Other:
 
- Other: __________
+---
 
-Changes Made
-<!-- List the key changes introduced by this PR. -->
-Testing
-<!-- Describe how you tested your changes. -->
+## 🧪 Testing
 
- Unit tests
+<!-- Describe the tests you performed to verify your changes. -->
 
- Integration tests
+* [ ] Existing tests pass
+* [ ] New tests added
+* [ ] Manual testing completed
+* [ ] Edge cases tested
 
- End-to-end tests
+### Test Details
 
- Manual testing
+<!-- Explain how the changes were tested and include relevant commands, datasets, or scenarios. -->
 
- Not applicable
+```text
+# Example:
+pytest
+npm test
+python -m unittest
+```
 
-Test Details
-<!-- Add relevant commands, test cases, or screenshots. -->
-Screenshots / Evidence
-<!-- Add screenshots, recordings, logs, or other evidence when applicable. -->
-Checklist
+---
 
- My code follows the project's coding standards.
+## 📸 Screenshots / Evidence
 
- I have performed a self-review of my code.
+<!-- If applicable, add screenshots, logs, charts, API responses, or other evidence demonstrating the changes. -->
 
- I have added or updated tests where necessary.
+---
 
- All existing tests pass.
+## 📊 Data / Machine Learning Changes
 
- I have updated relevant documentation.
+<!-- Complete this section if the PR involves data science or machine learning. -->
 
- I have checked for breaking changes.
+* [ ] Dataset changed
+* [ ] Data preprocessing changed
+* [ ] Feature engineering changed
+* [ ] Model changed
+* [ ] Hyperparameters changed
+* [ ] Evaluation methodology changed
+* [ ] Model performance changed
 
- I have removed unnecessary code, comments, or debugging statements.
+### Model / Analysis Results
 
- This PR is ready for review.
+<!-- Summarize important metrics or analytical results. -->
 
-Additional Notes
-<!-- Anything reviewers should know before reviewing this PR. -->
+| Metric    | Before | After |
+| --------- | -----: | ----: |
+| Accuracy  |        |       |
+| Precision |        |       |
+| Recall    |        |       |
+| F1 Score  |        |       |
+| AUC       |        |       |
+
+---
+
+## ⚠️ Breaking Changes
+
+<!-- Does this PR introduce any breaking changes? If yes, describe them and explain what users/developers need to do. -->
+
+* [ ] No breaking changes
+* [ ] Breaking changes
+
+Details:
+
+---
+
+## 🔐 Security & Privacy
+
+* [ ] No sensitive information has been added
+* [ ] No credentials, API keys, passwords, or tokens have been committed
+* [ ] Privacy implications have been considered
+* [ ] Security implications have been considered
+
+---
+
+## 📚 Documentation
+
+* [ ] Documentation is not required
+* [ ] Documentation has been updated
+* [ ] README updated
+* [ ] API/documentation updated
+* [ ] Comments/docstrings added where necessary
+
+---
+
+## ✅ Checklist
+
+Before requesting review, please confirm:
+
+* [ ] My code follows the project's coding standards
+* [ ] I have reviewed my own changes
+* [ ] I have removed unnecessary/debugging code
+* [ ] I have added or updated tests where necessary
+* [ ] All tests pass locally
+* [ ] I have updated relevant documentation
+* [ ] I have considered backward compatibility
+* [ ] I have not committed secrets or sensitive information
+* [ ] The PR is focused on a single purpose
+* [ ] The branch is up to date with the target branch
+
+---
+
+## 👀 Review Notes
+
+<!-- Mention anything specific you would like reviewers to pay attention to. -->
+
+---
+
+## 📝 A
