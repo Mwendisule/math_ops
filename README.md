@@ -16,3 +16,4 @@ A simple Python project with a virtual environment for running tests.
 6. Publish branches with caution
 7. Goodbye for today
 8. See you next time
+9. Bye
