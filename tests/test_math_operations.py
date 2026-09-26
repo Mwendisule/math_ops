@@ -1,8 +1,6 @@
 import math
-
 import pytest
-
-from src.math_operations import add, subtract, multiply, divide
+from src.math_operations import add, subtract, multiply, divide, modulus, power, square
 
 
 def test_add():
