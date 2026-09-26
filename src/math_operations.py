@@ -1,3 +1,6 @@
+import math
+
+
 def add(a, b):
     return a + b
 
@@ -27,3 +30,6 @@ def absolute(a):
 
 def square(a):
     return a ** 2
+
+def sqrt(a):
+    return math.sqrt(a)
