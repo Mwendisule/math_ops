@@ -30,6 +30,3 @@ def absolute(a):
 
 def square(a):
     return a ** 2
-
-def sqrt(a):
-    return math.sqrt(a)
