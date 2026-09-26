@@ -34,3 +34,6 @@ def test_absolute():
 
 def test_square():
     assert square(9) == 81
+
+def test_sqrt():
+    assert math.sqrt(49) == 7
